@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="df98e4a1-9b7c-49eb-a8f6-3ebb5f84ea82" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Ator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cenario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cenario1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cenario2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cenario3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ControleTiros.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jogador.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Som.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tiro.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Zumbi.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="2xJismjcgKCleH3onk3TGMW3pLn" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/Linux/projetoJogo2D/ProjetoJogo2d",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="df98e4a1-9b7c-49eb-a8f6-3ebb5f84ea82" name="Changes" comment="" />
+      <created>1747662785638</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1747662785638</updated>
+    </task>
+    <servers />
+  </component>
+</project>
