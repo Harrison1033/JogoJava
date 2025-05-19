@@ -1,1 +1,0 @@
-INDEX VERSION 1.131+/media/harrison/Novo volume/Linux/javaGit2/testeLinux/ProjetoJogo2d/.metadata/.plugins/org.eclipse.jdt.core
