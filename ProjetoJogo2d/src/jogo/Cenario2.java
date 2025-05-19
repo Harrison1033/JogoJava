@@ -5,14 +5,14 @@ import jplay.Scene;
 import jplay.URL;
 import jplay.Window;
 
-public class Cenario2 extends Cenario {//COLOCAR ÍTENS PARA RECUPERAÇÃO DA VIDA DO PERSONAGEM
+public class Cenario2 extends Cenario {//COLOCAR ï¿½TENS PARA RECUPERAï¿½ï¿½O DA VIDA DO PERSONAGEM
 	private Window janela;
 	private Scene cena;
 	private Jogador jogador;
 	private Keyboard teclado;
 	//private Zumbi zumbi;
 	
-	public Cenario2 (Window window) {//APÓS CONTATO COM O ÍTME, JOGAR LONGE COMO O ZUMBI
+	public Cenario2 (Window window) {//APï¿½S CONTATO COM O ï¿½TME, JOGAR LONGE COMO O ZUMBI
 		janela = window;
 		cena = new Scene();
 		cena.loadFromFile(URL.scenario("interno.scn"));
@@ -30,7 +30,7 @@ public class Cenario2 extends Cenario {//COLOCAR ÍTENS PARA RECUPERAÇÃO DA VIDA 
 			jogador.caminho(cena);
 			//zumbi.caminho(cena);
 			//zumbi.perseguir(jogador.x, jogador.y);
-			cena.moveScene(jogador);//câmera segue o jogadeor  
+			cena.moveScene(jogador);//cï¿½mera segue o jogadeor  
 			
 			jogador.x += cena.getXOffset();
 			jogador.y += cena.getYOffset();

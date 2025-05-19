@@ -15,17 +15,17 @@ public class Cenario1 extends Cenario {
 		
 	
 	
-	public Cenario1 (Window window) {//construtor com o parâmetro Window da classe main
+	public Cenario1 (Window window) {//construtor com o parï¿½metro Window da classe main
 		janela = window;
 		cena = new Scene();
-		cena.loadFromFile(URL.scenario("Cenario1.scn"));//carrega o arquivo de cenário1
+		cena.loadFromFile(URL.scenario("Cenario1.scn"));//carrega o arquivo de cenï¿½rio1
 		jogador = new Jogador(390, 1060);;//TENTAR UM IF PARA RETORNO DE MULTIPLAS TELAS
 		teclado = janela.getKeyboard();//parte do Keyboard teclado
-		zumbi = new Zumbi[6];//array de 5 zumbis no cenário
+		zumbi = new Zumbi[6];//array de 5 zumbis no cenï¿½rio
 		zumbi00 = new Zumbi00[4];
 		
 		//Som.play("obscuro.wav");
-		run();//o método run contém o loop infinito como na classe main
+		run();//o mï¿½todo run contï¿½m o loop infinito como na classe main
 	}
 	public void run() {
 		 for(int i = 0; i < zumbi.length; i ++) {
@@ -36,21 +36,21 @@ public class Cenario1 extends Cenario {
 			 zumbi00[j] = new Zumbi00(100 * j, 400 * j); 
 		 }
 		while (true) {
-			//cena.draw();//Pintando a cena que no caso não segue o jogador
+			//cena.draw();//Pintando a cena que no caso nï¿½o segue o jogador
 			mudarCenario();
 			janela.update();
-			jogador.mover(janela,teclado);//mover jogador no cenario através do mover da classe Jogador
+			jogador.mover(janela,teclado);//mover jogador no cenario atravï¿½s do mover da classe Jogador
 			jogador.caminho(cena);
-			cena.moveScene(jogador);//câmera segue o jogadeor  
+			cena.moveScene(jogador);//cï¿½mera segue o jogadeor  
 			jogador.x += cena.getXOffset();//adicionando o posicionamento para seguir mais suavemente
 			jogador.y += cena.getYOffset();//adicionando o posicionamento
 			for(int i = 0; i < zumbi.length; i ++) {
 			zumbi[i].caminho(cena);
 			zumbi[i].perseguir(jogador.x, jogador.y);
 			jogador.atirar(janela, cena, teclado, zumbi[i]);
-			zumbi[i].morrer();//Método morrer(sem parametros) da classe zumbi
-			zumbi[i].ataque(jogador);//Método da classe zumbi(atacar jogador)
-			zumbi[i].x += cena.getXOffset();//usado para o zumbi não ser arrastado quando o jogador andar na tela
+			zumbi[i].morrer();//Mï¿½todo morrer(sem parametros) da classe zumbi
+			zumbi[i].ataque(jogador);//Mï¿½todo da classe zumbi(atacar jogador)
+			zumbi[i].x += cena.getXOffset();//usado para o zumbi nï¿½o ser arrastado quando o jogador andar na tela
 			zumbi[i].y += cena.getYOffset();//o mesmo de cima
 			zumbi[i].draw();
 			}
@@ -71,11 +71,11 @@ public class Cenario1 extends Cenario {
 		}
 	}
 	private void mudarCenario() {
-		if (tileCollision(05, jogador, cena)== true) {//05 é o número do tile que colide para outro cenário
+		if (tileCollision(05, jogador, cena)== true) {//05 ï¿½ o nï¿½mero do tile que colide para outro cenï¿½rio
 			new Cenario2(janela);//Abre a janela do cenario 2
 		}
 	
-	if (tileCollision(06, jogador, cena)== true) {//06 é o número do tile que colide para outro cenário
+	if (tileCollision(06, jogador, cena)== true) {//06 ï¿½ o nï¿½mero do tile que colide para outro cenï¿½rio
 		new Cenario3(janela);//Abre a janela do cenario 3
 	}
 }

@@ -4,8 +4,8 @@ import jplay.GameObject;
 import jplay.TileInfo;
 
 public class Controle {
-	public boolean Colisao(GameObject obj, TileInfo tile) {//método boolean colisão
-		if ((tile.id >= 20 )&& obj.collided(tile)) {//decide objetos que podem ou não serem atravessados
+	public boolean Colisao(GameObject obj, TileInfo tile) {//mï¿½todo boolean colisï¿½o
+		if ((tile.id >= 20 )&& obj.collided(tile)) {//decide objetos que podem ou nï¿½o serem atravessados
 			return true;
 		}
 		return false;

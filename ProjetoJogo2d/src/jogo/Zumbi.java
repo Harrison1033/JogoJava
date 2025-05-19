@@ -6,7 +6,7 @@ public class Zumbi extends Ator {
 
 	private double ataque = 1;
 	public Zumbi(int x, int y) {
-		super(URL.sprite("Zumbi 03.png"), 16);//o 16 é o número de frames
+		super(URL.sprite("Zumbi 03.png"), 16);//o 16 ï¿½ o nï¿½mero de frames
 		this.x = x;
 		this.y = y;
 		this.setTotalDuration(2000);
@@ -17,14 +17,14 @@ public class Zumbi extends Ator {
 			moveTo(x, y, velocidade);
 			if(direcao != 1) {
 				setSequence(5, 8);
-				direcao = 1;//direção que o zumbi está se dirigindo
+				direcao = 1;//direï¿½ï¿½o que o zumbi estï¿½ se dirigindo
 			}
 			movendo = true;
 		}
 		else if (this.x < x && this.y <= y +50 && this.y >= y - 50) {
 			moveTo(x, y, velocidade);
 			if(direcao != 2) {
-				setSequence(9, 12);//frames referente a direção que o zumbi tem que estar
+				setSequence(9, 12);//frames referente a direï¿½ï¿½o que o zumbi tem que estar
 				direcao = 2;
 			}
 			movendo = true;
@@ -56,10 +56,10 @@ public class Zumbi extends Ator {
 			this.ataque = 0;
 			this.direcao = 0;
 			this.movendo = false;
-			this.x = 10_000;//posição do zumbi após a morte
+			this.x = 10_000;//posiï¿½ï¿½o do zumbi apï¿½s a morte
 		}
 	}
-	public void ataque(Jogador jogador) {//método para zumbi atacar jogador
+	public void ataque(Jogador jogador) {//mï¿½todo para zumbi atacar jogador
 		if(this.collided(jogador)) {//caso zumbi colida com o jogador
 			Jogador.energia -= this.ataque ;//jogador perde energia
 		}
