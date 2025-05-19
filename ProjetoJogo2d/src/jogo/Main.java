@@ -16,7 +16,10 @@ public class Main {
             janela.update();
 
             if (teclado.keyDown(Keyboard.ENTER_KEY)) {
-                new Cenario1(janela);
+                Cenario1 cenario = new Cenario1(janela);
+                Thread thread = new Thread(cenario);
+                thread.start();
+                break; // sair do loop do menu
             }
         }
     }
