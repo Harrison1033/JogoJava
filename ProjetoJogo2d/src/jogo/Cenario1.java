@@ -18,7 +18,7 @@ public class Cenario1 extends Cenario implements Runnable {
 		this.jogador = new Jogador(390, 1060); // Posição inicial do jogador
 		this.cena = new Scene();
 		this.cena.loadFromFile("recursos/scn/Cenario1.scn");
-		
+
 	}
 
 	private void mudarCenario() {

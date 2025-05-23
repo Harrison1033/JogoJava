@@ -1,5 +1,5 @@
 package jogo;
-
+//projeto atualmente só roda no eclipse, futuras atualizações
 import jplay.GameImage;
 import jplay.Keyboard;
 import jplay.URL;
